@@ -1,0 +1,7 @@
+{
+	"includes":[
+		"_dev/js/com/.pre",
+		"_dev/js/main.js",
+		"_dev/js/com/.post"
+	]
+}

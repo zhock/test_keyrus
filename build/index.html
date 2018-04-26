@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Plantilla FrotnEnd</title>
+    <meta name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/vendor/"/>
+    <link rel="stylesheet" href="css/main.min.css"/>
+
+</head>
+
+<body>
+    <div>
+        <div id="content">
+            <div class="alert alert-primary correct" id="block__msg">
+                <div id="icon__msg"></div>
+                <span id="msg__text">Digite seu email e senha</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex h-100">
+
+        <div class="row align-self-center w-100">
+            <div class="col-12 col-md-7 col-lg-5  mx-auto">
+                <div class="block__login">
+                    <h1 class="title_login text-center">Entrar na minha conta</h1>
+                    <form class="text-center">
+                        <div class="form-group group__input">
+                            <input type="email" class="form-control form--input" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
+                            <label class="sprite_1-name"></label>
+                        </div>
+                        <div class="form-group group__input">
+                            <input type="password" class="form-control form--input" id="inputPassword" placeholder="Senha">
+                            <label class="sprite_1-lock"></label>
+                        </div>
+                        <button type="button" id="enviar" class="btn btn-primary btn--main">Entrar</button>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="checkbox_connected">
+                            <label class="form-check-label" for="checkbox_connected">Mantenha-me conectado</label>
+                        </div>
+                    </form>
+                    <div class="sprite_1-corner corner"></div>
+                    <div class="block__login1"></div>
+                    <div class="block__login2"></div>
+                </div>
+            </div>
+            <div class="col-12 text-center block__register">
+                <span>Precisa de uma conta?</span>
+                <span>
+                    <a href="#">Inscrever-se</a>
+                </span>
+            </div>
+            <div class="col-12 text-center block_remenber">
+                <span>Esqueceu sua senha?
+                    <a href="#">Clique aqui.</a>
+                </span>
+            </div>
+            <div class="col-12 col-md-12 col-lg-7 mx-auto text-center block__info">
+                <div class="container__info">
+                    <div class="square__info text-center">i</div>
+                    <div class="text-center text__info">Keyrus</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/vendor.min.js"></script>
+
+</body>
+
+</html>

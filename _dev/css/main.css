@@ -1,0 +1,578 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*------------------------- Amor y amistad --------------------*/
+/*------------------------- Amor y amistad --------------------*/
+/* line 80, sprites/sprite_1/*.png */
+.sprite_1-sprite, .sprite_1-close, .sprite_1-corner, .sprite_1-correct, .sprite_1-lock, .sprite_1-name {
+  background-image: url('../img/sprites/sprite_1-s7757ca59f7.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-close {
+  background-position: 0 0;
+  height: 14px;
+  width: 13px;
+}
+
+/* line 84, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-corner {
+  background-position: 0 -30px;
+  height: 18px;
+  width: 19px;
+}
+
+/* line 84, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-correct {
+  background-position: 0 -14px;
+  height: 16px;
+  width: 17px;
+}
+
+/* line 84, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-lock {
+  background-position: 0 -68px;
+  height: 20px;
+  width: 17px;
+}
+
+/* line 84, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-name {
+  background-position: 0 -48px;
+  height: 20px;
+  width: 20px;
+}
+
+@font-face {
+  font-family: "TrebuchetMS";
+  src: url("../fonts/TrebuchetMS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../fonts/MyriadPro-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MyriadProSemiBold";
+  src: url("../fonts/MyriadPro-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 3, ../sass/_generales.scss */
+body, html {
+  background: url("../img/bg.png");
+  height: 100%;
+}
+
+/* line 8, ../sass/_generales.scss */
+.mainWrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 14, ../sass/_generales.scss */
+.clear {
+  width: 100%;
+  height: 10px;
+}
+
+/* line 1, ../sass/section_login/_section_login.scss */
+.row {
+  margin: 0;
+}
+
+/* line 3, ../sass/section_login/_section_login.scss */
+#content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: right;
+}
+/* line 14, ../sass/section_login/_section_login.scss */
+#content #block__msg #icon__msg {
+  position: absolute;
+  top: 37%;
+}
+/* line 18, ../sass/section_login/_section_login.scss */
+#content #block__msg span {
+  text-align: right;
+  font-family: MyriadProBold;
+  font-size: 14px;
+  color: #a93b3b;
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
+}
+/* line 26, ../sass/section_login/_section_login.scss */
+#content .error {
+  opacity: 0;
+  background-color: #ef7575;
+  border-radius: .6rem;
+  border: 2px solid #db5252;
+  position: relative;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+/* line 35, ../sass/section_login/_section_login.scss */
+#content .correct {
+  opacity: 0;
+  background-color: #5fdf9e;
+  border-radius: .6rem;
+  border: 2px solid #4bcf8c;
+  position: relative;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+/* line 45, ../sass/section_login/_section_login.scss */
+.block__login1 {
+  position: absolute;
+  border-top: 0px;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  width: 100%;
+  height: 99%;
+  bottom: 5px;
+  z-index: -1;
+}
+
+/* line 55, ../sass/section_login/_section_login.scss */
+.block__login2 {
+  position: absolute;
+  border: 1px solid #ccc;
+  border-top: 0px;
+  border-radius: .5rem;
+  width: 100%;
+  height: 96%;
+  bottom: 12px;
+  z-index: -2;
+}
+
+/* line 66, ../sass/section_login/_section_login.scss */
+.block__login {
+  position: relative;
+  z-index: 1;
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  -webkit-box-shadow: 3px 5px 5px -2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 3px 5px 5px -2px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 5px 5px -2px rgba(0, 0, 0, 0.24);
+}
+/* line 75, ../sass/section_login/_section_login.scss */
+.block__login .corner {
+  position: absolute;
+  right: 0px;
+  bottom: 12px;
+}
+/* line 80, ../sass/section_login/_section_login.scss */
+.block__login .title_login {
+  font-family: MyriadProBold;
+  font-size: 18px;
+  font-weight: bold;
+  color: #939797;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* line 88, ../sass/section_login/_section_login.scss */
+.block__login form {
+  padding: 10px 110px;
+}
+/* line 90, ../sass/section_login/_section_login.scss */
+.block__login form .group__input {
+  position: relative;
+}
+/* line 92, ../sass/section_login/_section_login.scss */
+.block__login form .group__input label {
+  position: absolute;
+  top: 25%;
+  right: 12px;
+}
+/* line 98, ../sass/section_login/_section_login.scss */
+.block__login form .form--input {
+  padding-right: 35px;
+  font-size: 14px;
+  height: 40px;
+  font-family: MyriadProRegular;
+  color: #787878;
+  background-color: #f7f6f6;
+  border: none;
+  border-radius: .4rem;
+  -webkit-box-shadow: inset 3px 10px 15px -8px rgba(64, 61, 64, 0.15);
+  -moz-box-shadow: inset 3px 10px 15px -8px rgba(64, 61, 64, 0.15);
+  box-shadow: inset 3px 10px 15px -8px rgba(64, 61, 64, 0.15);
+}
+/* line 111, ../sass/section_login/_section_login.scss */
+.block__login form .form--input ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #787878;
+}
+/* line 114, ../sass/section_login/_section_login.scss */
+.block__login form .form--input ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #787878;
+}
+/* line 117, ../sass/section_login/_section_login.scss */
+.block__login form .form--input :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #787878;
+}
+/* line 120, ../sass/section_login/_section_login.scss */
+.block__login form .form--input :-moz-placeholder {
+  /* Firefox 18- */
+  color: #787878;
+}
+/* line 124, ../sass/section_login/_section_login.scss */
+.block__login form .btn--main {
+  border: 1px solid #0f578a;
+  width: 100px;
+  margin: 8px 0;
+  font-family: MyriadProBold;
+  font-size: 16px;
+  text-shadow: 1px 1px #0f578a;
+  -webkit-box-shadow: inset 3px 10px 1px -8px rgba(252, 252, 252, 0.5);
+  -moz-box-shadow: inset 3px 10px 1px -8px rgba(252, 252, 252, 0.5);
+  box-shadow: inset 3px 10px 1px -8px rgba(252, 252, 252, 0.5);
+}
+/* line 135, ../sass/section_login/_section_login.scss */
+.block__login form .form-check {
+  padding-left: 4rem;
+}
+/* line 137, ../sass/section_login/_section_login.scss */
+.block__login form .form-check label {
+  font-family: MyriadProRegular;
+  font-size: 12px;
+  color: #939797;
+}
+
+/* line 145, ../sass/section_login/_section_login.scss */
+.block__register, .block_remenber {
+  padding: 10px 10px;
+}
+
+/* line 148, ../sass/section_login/_section_login.scss */
+.block__register {
+  font-family: MyriadProSemiBold;
+  color: #787878;
+  font-size: 14px;
+}
+/* line 152, ../sass/section_login/_section_login.scss */
+.block__register span:nth-child(1) {
+  border-bottom: 1px solid #000;
+}
+/* line 155, ../sass/section_login/_section_login.scss */
+.block__register span:nth-child(2) {
+  border-bottom: 1px solid #2993de;
+}
+/* line 157, ../sass/section_login/_section_login.scss */
+.block__register span:nth-child(2) a {
+  color: #2993de;
+  text-decoration: none;
+}
+
+/* line 164, ../sass/section_login/_section_login.scss */
+.block_remenber {
+  font-size: 11px;
+  font-family: TrebuchetMS;
+  color: #797979;
+  font-weight: 500;
+}
+/* line 169, ../sass/section_login/_section_login.scss */
+.block_remenber a {
+  color: #2993de;
+  text-decoration: none;
+}
+
+/* line 176, ../sass/section_login/_section_login.scss */
+.block__info .container__info div {
+  float: left;
+}
+/* line 179, ../sass/section_login/_section_login.scss */
+.block__info .container__info .square__info {
+  padding: 2px;
+  width: 30px;
+  background-color: #7b7b7b;
+  color: #fff;
+  font-family: MyriadProBold;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 188, ../sass/section_login/_section_login.scss */
+.block__info .container__info .text__info {
+  font-size: 12px;
+  background-color: #fff;
+  color: #7b7b7b;
+  font-family: MyriadProRegular;
+  font-style: italic;
+  font-weight: 500;
+  width: 90%;
+  padding: 6px;
+  margin-left: 6px;
+}
+
+/*------------------------- Plantillas media queries helper classes --------------------*/
+/** Media queries **/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
+/** Fin Media queries**/
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 89, ../sass/com/general/_media_queries.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 96, ../sass/com/general/_media_queries.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 101, ../sass/com/general/_media_queries.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 105, ../sass/com/general/_media_queries.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 113, ../sass/com/general/_media_queries.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 119, ../sass/com/general/_media_queries.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 125, ../sass/com/general/_media_queries.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 129, ../sass/com/general/_media_queries.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 134, ../sass/com/general/_media_queries.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 142, ../sass/com/general/_media_queries.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 149, ../sass/com/general/_media_queries.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 11, ../sass/com/general/_helper_classes.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 19, ../sass/com/general/_helper_classes.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 30, ../sass/com/general/_helper_classes.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 39, ../sass/com/general/_helper_classes.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 55, ../sass/com/general/_helper_classes.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 69, ../sass/com/general/_helper_classes.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 85, ../sass/com/general/_helper_classes.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 91, ../sass/com/general/_helper_classes.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 100, ../sass/com/general/_helper_classes.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/*------------------------- Plantillas media queries helper classes --------------------*/
+@media screen and (max-width: 767px) {
+  /* line 2, ../sass/section_login/_media_767.scss */
+  .block__login form {
+    padding: 10px 10px;
+  }
+
+  /* line 6, ../sass/section_login/_media_767.scss */
+  #content {
+    width: 95%;
+    top: 1%;
+  }
+
+  /* line 10, ../sass/section_login/_media_767.scss */
+  .block__info .container__info .text__info {
+    width: 85%;
+  }
+}

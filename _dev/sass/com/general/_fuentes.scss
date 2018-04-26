@@ -1,0 +1,18 @@
+@mixin newFont($fontFamily,$fileName){
+    $path: '../fonts/'+ $fileName;    
+    @font-face {
+        font-family: $fontFamily;
+        src: url($path +'.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@include newFont('TrebuchetMS','TrebuchetMS');
+@include newFont('MyriadProRegular','MyriadPro-Regular');
+@include newFont('MyriadProBold','MyriadPro-Bold');
+@include newFont('MyriadProSemiBold','MyriadPro-Semibold');
+
+
+
+
